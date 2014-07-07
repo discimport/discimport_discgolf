@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Discimport Discgolf feature.
+ */
+
+include_once 'discimport_discgolf.features.inc';
