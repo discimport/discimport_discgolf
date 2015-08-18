@@ -342,9 +342,7 @@ function discimport_discgolf_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'menu_options_discgolf';
-  $strongarm->value = array(
-    0 => 'main-menu',
-  );
+  $strongarm->value = array();
   $export['menu_options_discgolf'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -367,7 +365,7 @@ function discimport_discgolf_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'node_preview_discgolf';
-  $strongarm->value = '1';
+  $strongarm->value = '0';
   $export['node_preview_discgolf'] = $strongarm;
 
   $strongarm = new stdClass();
