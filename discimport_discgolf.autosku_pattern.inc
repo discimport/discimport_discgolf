@@ -15,7 +15,7 @@ function discimport_discgolf_default_commerce_autosku_patterns() {
   $commerce_autosku_patterns->api_version = 1;
   $commerce_autosku_patterns->product_type = 'golfdiscs';
   $commerce_autosku_patterns->pattern = '';
-  $commerce_autosku_patterns->advanced = '';
+  $commerce_autosku_patterns->advanced = array();
   $export['golfdiscs'] = $commerce_autosku_patterns;
 
   return $export;
