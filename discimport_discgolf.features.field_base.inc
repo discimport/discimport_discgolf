@@ -125,7 +125,7 @@ function discimport_discgolf_field_default_field_bases() {
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_plastic'
+  // Exported field_base: 'field_plastic'.
   $field_bases['field_plastic'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -151,7 +151,7 @@ function discimport_discgolf_field_default_field_bases() {
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_weight'
+  // Exported field_base: 'field_weight'.
   $field_bases['field_weight'] = array(
     'active' => 1,
     'cardinality' => 1,

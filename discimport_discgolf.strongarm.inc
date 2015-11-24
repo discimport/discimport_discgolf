@@ -326,6 +326,36 @@ function discimport_discgolf_strongarm() {
             'visible' => TRUE,
           ),
         ),
+        'product:billysbilling_product_id' => array(
+          'default' => array(
+            'weight' => '10',
+            'visible' => TRUE,
+          ),
+          'full' => array(
+            'weight' => '10',
+            'visible' => TRUE,
+          ),
+        ),
+        'product:commerce_stock_override' => array(
+          'default' => array(
+            'weight' => '11',
+            'visible' => TRUE,
+          ),
+          'full' => array(
+            'weight' => '11',
+            'visible' => TRUE,
+          ),
+        ),
+        'product:title_field' => array(
+          'default' => array(
+            'weight' => '-5',
+            'visible' => TRUE,
+          ),
+          'full' => array(
+            'weight' => '-5',
+            'visible' => TRUE,
+          ),
+        ),
       ),
     ),
   );

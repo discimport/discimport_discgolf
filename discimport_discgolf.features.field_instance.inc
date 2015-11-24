@@ -11,7 +11,7 @@ function discimport_discgolf_field_default_field_instances() {
   $field_instances = array();
 
   // Exported field_instance:
-  // 'commerce_product-golfdiscs-billysbilling_product_id'
+  // 'commerce_product-golfdiscs-billysbilling_product_id'.
   $field_instances['commerce_product-golfdiscs-billysbilling_product_id'] = array(
     'bundle' => 'golfdiscs',
     'default_value' => NULL,
@@ -79,7 +79,7 @@ function discimport_discgolf_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'commerce_product-golfdiscs-commerce_price'
+  // Exported field_instance: 'commerce_product-golfdiscs-commerce_price'.
   $field_instances['commerce_product-golfdiscs-commerce_price'] = array(
     'bundle' => 'golfdiscs',
     'default_value' => NULL,
@@ -217,7 +217,7 @@ function discimport_discgolf_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'commerce_product-golfdiscs-commerce_stock'
+  // Exported field_instance: 'commerce_product-golfdiscs-commerce_stock'.
   $field_instances['commerce_product-golfdiscs-commerce_stock'] = array(
     'bundle' => 'golfdiscs',
     'default_value' => array(
@@ -296,7 +296,80 @@ function discimport_discgolf_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'commerce_product-golfdiscs-field_color'
+  // Exported field_instance:
+  // 'commerce_product-golfdiscs-commerce_stock_override'.
+  $field_instances['commerce_product-golfdiscs-commerce_stock_override'] = array(
+    'bundle' => 'golfdiscs',
+    'default_value' => array(
+      0 => array(
+        'value' => 0,
+      ),
+    ),
+    'deleted' => 0,
+    'description' => NULL,
+    'display' => array(
+      'add_to_cart_confirmation_view' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'default' => array(
+        'label' => 'above',
+        'module' => 'list',
+        'settings' => array(),
+        'type' => 'list_default',
+        'weight' => 10,
+      ),
+      'line_item' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'node_full' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'node_product_list' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'node_teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'product_in_cart' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'commerce_product',
+    'field_name' => 'commerce_stock_override',
+    'label' => 'Disable stock for this product',
+    'required' => FALSE,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'module' => 'options',
+      'settings' => array(
+        'display_label' => TRUE,
+      ),
+      'type' => 'options_onoff',
+      'weight' => 11,
+    ),
+  );
+
+  // Exported field_instance: 'commerce_product-golfdiscs-field_color'.
   $field_instances['commerce_product-golfdiscs-field_color'] = array(
     'bundle' => 'golfdiscs',
     'commerce_cart_settings' => array(
@@ -369,7 +442,7 @@ function discimport_discgolf_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'commerce_product-golfdiscs-field_images'
+  // Exported field_instance: 'commerce_product-golfdiscs-field_images'.
   $field_instances['commerce_product-golfdiscs-field_images'] = array(
     'bundle' => 'golfdiscs',
     'deleted' => 0,
@@ -499,7 +572,7 @@ function discimport_discgolf_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'commerce_product-golfdiscs-field_plastic'
+  // Exported field_instance: 'commerce_product-golfdiscs-field_plastic'.
   $field_instances['commerce_product-golfdiscs-field_plastic'] = array(
     'bundle' => 'golfdiscs',
     'commerce_cart_settings' => array(
@@ -572,7 +645,7 @@ function discimport_discgolf_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'commerce_product-golfdiscs-field_weight'
+  // Exported field_instance: 'commerce_product-golfdiscs-field_weight'.
   $field_instances['commerce_product-golfdiscs-field_weight'] = array(
     'bundle' => 'golfdiscs',
     'commerce_cart_settings' => array(
@@ -645,7 +718,7 @@ function discimport_discgolf_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'commerce_product-golfdiscs-title_field'
+  // Exported field_instance: 'commerce_product-golfdiscs-title_field'.
   $field_instances['commerce_product-golfdiscs-title_field'] = array(
     'bundle' => 'golfdiscs',
     'default_value' => NULL,
@@ -666,6 +739,18 @@ function discimport_discgolf_field_default_field_instances() {
         'weight' => 0,
       ),
       'line_item' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'node_full' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'node_product_list' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
@@ -706,7 +791,7 @@ function discimport_discgolf_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-discgolf-body'
+  // Exported field_instance: 'node-discgolf-body'.
   $field_instances['node-discgolf-body'] = array(
     'bundle' => 'discgolf',
     'default_value' => NULL,
@@ -761,7 +846,7 @@ function discimport_discgolf_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-discgolf-field_brand'
+  // Exported field_instance: 'node-discgolf-field_brand'.
   $field_instances['node-discgolf-field_brand'] = array(
     'bundle' => 'discgolf',
     'default_value' => NULL,
@@ -813,7 +898,7 @@ function discimport_discgolf_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-discgolf-field_category'
+  // Exported field_instance: 'node-discgolf-field_category'.
   $field_instances['node-discgolf-field_category'] = array(
     'bundle' => 'discgolf',
     'default_value' => NULL,
@@ -864,7 +949,7 @@ function discimport_discgolf_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-discgolf-field_collection'
+  // Exported field_instance: 'node-discgolf-field_collection'.
   $field_instances['node-discgolf-field_collection'] = array(
     'bundle' => 'discgolf',
     'default_value' => NULL,
@@ -917,7 +1002,7 @@ function discimport_discgolf_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-discgolf-field_discount_group'
+  // Exported field_instance: 'node-discgolf-field_discount_group'.
   $field_instances['node-discgolf-field_discount_group'] = array(
     'bundle' => 'discgolf',
     'default_value' => NULL,
@@ -967,7 +1052,7 @@ function discimport_discgolf_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-discgolf-field_level'
+  // Exported field_instance: 'node-discgolf-field_level'.
   $field_instances['node-discgolf-field_level'] = array(
     'bundle' => 'discgolf',
     'default_value' => NULL,
@@ -1018,7 +1103,7 @@ function discimport_discgolf_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-discgolf-field_product'
+  // Exported field_instance: 'node-discgolf-field_product'.
   $field_instances['node-discgolf-field_product'] = array(
     'bundle' => 'discgolf',
     'deleted' => 0,
@@ -1034,7 +1119,7 @@ function discimport_discgolf_field_default_field_instances() {
           'show_quantity' => FALSE,
           'show_single_product_attributes' => FALSE,
         ),
-        'type' => 'commerce_cart_add_to_cart_form',
+        'type' => 'hidden',
         'weight' => 3,
       ),
       'full' => array(
@@ -1047,7 +1132,7 @@ function discimport_discgolf_field_default_field_instances() {
           'show_quantity' => 1,
           'show_single_product_attributes' => 0,
         ),
-        'type' => 'commerce_cart_add_to_cart_form',
+        'type' => 'hidden',
         'weight' => 5,
       ),
       'product_list' => array(
@@ -1100,7 +1185,7 @@ function discimport_discgolf_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-discgolf-title_field'
+  // Exported field_instance: 'node-discgolf-title_field'.
   $field_instances['node-discgolf-title_field'] = array(
     'bundle' => 'discgolf',
     'default_value' => NULL,
@@ -1164,6 +1249,7 @@ function discimport_discgolf_field_default_field_instances() {
   t('Category');
   t('Collection');
   t('Color');
+  t('Disable stock for this product');
   t('Discount group');
   t('Image');
   t('Level');
