@@ -10,7 +10,7 @@
 function discimport_discgolf_field_default_field_bases() {
   $field_bases = array();
 
-  // Exported field_base: 'field_level'
+  // Exported field_base: 'field_level'.
   $field_bases['field_level'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -31,6 +31,7 @@ function discimport_discgolf_field_default_field_bases() {
           'parent' => 0,
         ),
       ),
+      'options_list_callback' => 'title_taxonomy_allowed_values',
     ),
     'translatable' => 0,
     'type' => 'taxonomy_term_reference',
@@ -57,6 +58,7 @@ function discimport_discgolf_field_default_field_bases() {
           'parent' => 0,
         ),
       ),
+      'options_list_callback' => 'title_taxonomy_allowed_values',
     ),
     'translatable' => 0,
     'type' => 'taxonomy_term_reference',
@@ -83,6 +85,7 @@ function discimport_discgolf_field_default_field_bases() {
           'parent' => 0,
         ),
       ),
+      'options_list_callback' => 'title_taxonomy_allowed_values',
     ),
     'translatable' => 0,
     'type' => 'taxonomy_term_reference',
